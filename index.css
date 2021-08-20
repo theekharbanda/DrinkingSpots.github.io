@@ -1,0 +1,121 @@
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-smoothing: antialiased;
+    background-color: #fac564;
+    background-image: url(https://backgroundcheckall.com/wp-content/uploads/2017/12/craft-beer-background-4.jpg);
+    overflow: scroll;
+  }
+h1{
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 1px 2px rgba(black,.15);
+
+}
+.CoolBoxes {
+    display: block;
+    width : 150px;
+    height : 50px;
+    background : #27ae60;
+    border : 1px solid #26a65b;
+    color : white;
+    text-align :center;
+    font-size : 22px;
+    line-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.content{
+  column-gap: 20px;
+  padding: 20px 0;
+  margin: 0 150px;
+}
+p {
+  margin: 0 50px 20px;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: white;
+}
+
+.Container {
+  padding : 25px 100px;
+  margin : 0 auto;
+  max-width : 1200px;
+}
+.Document {
+  background-color: rgba(#fac564,.5);
+  padding: 40px 20px;
+  border-radius: 5px;
+}
+
+
+
+
+button {
+    margin: 10px;
+  }
+  .custom-btn {
+    width: 150px;
+    height: 80px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    margin-bottom: 1rem;
+    text-align :center;
+    line-height: 35px;
+    font-size : 15px;
+
+  }
+
+.btn-13 {
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+    border: none;
+    z-index: 1;
+  }
+  .btn-13:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #4dccc6;
+    background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .btn-13:hover {
+    color: rgb(255, 255, 255);
+  }
+  .btn-13:hover:after {
+    top: 0;
+    height: 100%;
+  }
+  .btn-13:active {
+    top: 2px;
+  }
+
+
+  
